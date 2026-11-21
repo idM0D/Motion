@@ -1679,11 +1679,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS TUF\\Documents\\GitHub\\Motion\\purple vs\\Motion\\Motion\\Motion.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS TUF\\Documents\\GitHub\\Motion\\purple vs\\motion\\Motion\\Motion.csproj",
       "projectName": "Motion",
-      "projectPath": "C:\\Users\\ASUS TUF\\Documents\\GitHub\\Motion\\purple vs\\Motion\\Motion\\Motion.csproj",
+      "projectPath": "C:\\Users\\ASUS TUF\\Documents\\GitHub\\Motion\\purple vs\\motion\\Motion\\Motion.csproj",
       "packagesPath": "C:\\Users\\ASUS TUF\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS TUF\\Documents\\GitHub\\Motion\\purple vs\\Motion\\Motion\\obj\\",
+      "outputPath": "C:\\Users\\ASUS TUF\\Documents\\GitHub\\Motion\\purple vs\\motion\\Motion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1764,7 +1764,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

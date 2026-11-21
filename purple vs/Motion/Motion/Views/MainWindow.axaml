@@ -3,25 +3,26 @@
         xmlns:vm="using:Motion.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="450"
         x:Class="Motion.Views.MainWindow"
         x:DataType="vm:MainViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="Motion">
+        Title="Motion"
+        Width="400"
+        Height="450">
 
     <StackPanel Spacing="15">
 
         <Border Margin="5" CornerRadius="10" Background="LightBlue">
             <TextBlock Margin="5"
                        FontSize="24" 
-                       HorizontalAlignment="Center"
-                       Text="Temperature Converter">
+                       HorizontalAlignment="Center">Temperature Converter
             </TextBlock>
         </Border>
 
         <Grid ShowGridLines="True" Margin="15"
-              ColumnDefinitions="120, 100"
-              RowDefinitions="Auto, Auto">
+              ColumnDefinitions="90, 90, 90, 90"
+              RowDefinitions="Auto, Auto, Auto, Auto">
             <TextBlock Grid.Column="0" Grid.Row="0" Margin="15">Celcius</TextBlock>
             <TextBox Grid.Column="1" Grid.Row="0" Margin="0 5" Text="0"/>
             <TextBlock Grid.Column="0" Grid.Row="1" Margin="15">Fahrenheit</TextBlock>
